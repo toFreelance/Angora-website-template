@@ -1,0 +1,1181 @@
+@font-face {
+    font-family: Segoe UI;
+    src: url(SegoeUI.ttf);
+  }
+body
+{
+    font-family: 'Segoe UI';
+}
+.Home
+{
+    height: 42rem;
+}
+.Home .Slide_1
+{
+    height: 100%;
+    background-image:url('images/slideshow-1.jpg');
+    background-size: 100% 100%;
+}
+.Home .Slide_2
+{
+    height: 100%;
+    background-image:url('images/slideshow-2.jpg');
+    background-size: 100% 100%;
+}
+.Home .Slide_3
+{
+    height: 100%;
+    background-image:url('images/slideshow-3.jpg');
+    background-size: 100% 100%;
+}
+.Home .navbar a
+{
+    color: white !important;
+    padding:0 !important;
+    margin: 1rem !important;
+}
+.Home .Slide_1 .border-bottom , .Home .Slide_2 .border-bottom, .Home .Slide_3 .border-bottom
+{
+    border-bottom: solid 1px white !important;
+}
+.Home .Slide_1 .navbar-brand , .Home .Slide_2 .navbar-brand  ,.Home .Slide_3 .navbar-brand ,.navbar-brand i
+{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.1rem;
+    font-weight: 900 !important;
+    letter-spacing: 3px !important;
+    line-height: 0.2rem !important;
+}
+.Home .NavLinks 
+{
+    font-size: 0.875rem !important;
+    line-height: 1.56rem !important;
+    font-weight: 400 !important; 
+    color: white !important;
+}
+.Home .Desc_H h1
+{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 4.4rem !important;
+    color: white !important;
+    line-height: 2.25rem !important;
+    margin-bottom: 2.3rem !important;
+}
+.nav-link 
+{
+font-size: 0.875rem !important;
+font-weight: 600 !important;
+}
+.fixed-top.scrolled
+{
+    background-color: #fff !important;
+    transition: background-color;
+}
+.fixed-top a:hover 
+{
+color:white !important;
+}
+.fixed-top .navbar-nav a:hover 
+{
+color:red !important;
+}
+.NavLinks .i-c:hover
+{
+color:red !important;
+}
+.fixed-top.scrolled a
+{
+    color:black !important;
+    transition:color;
+}
+.fixed-top.scrolled .NavLinks .i-c
+{
+    color:black !important;
+    transition:color;
+}
+
+.Sec1 .titlee ,.Sec2 .titlee,.Sec3 .titlee,.Sec6 .titlee,.Clients .titlee,.Sec10 .titlee,.Sec13 .titlee
+{
+    position: relative;
+    font-family: 'Poppins', sans-serif !important;
+}
+.Sec1 .titlee h2 , .Sec2 .titlee h2,.Sec3 .titlee h2 ,.Sec6 .titlee h2,.Clients .titlee h2,.Sec10 .titlee h2,.Sec13 .titlee h2
+{
+    color: lightgray;
+    font-weight: 700;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+.Sec1 .titlee h3 , .Sec2 .titlee h3 ,.Sec3 .titlee h3 ,.Sec6 .titlee h3,.Clients .titlee h3,.Sec10 .titlee h3,.Sec13 .titlee h3
+{   font-weight:570;
+    color:black;
+    position: absolute;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif !important;
+}
+.Sec1 .Header_Sec1 p ,.Sec2 .Header_Sec1 p,.Sec3 .Header_Sec1 p ,.Sec6 .Header_Sec1 p,.Clients .Header_Sec1 p,.Sec10 .Header_Sec1 p,.Sec13 .Header_Sec1
+{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.3rem !important;
+    color: #999 !important;
+}
+.Sec1 .Sec1_Left p 
+{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+    line-height: 1.56rem !important;
+    margin-bottom: 1rem !important;
+    padding: 0 !important;
+    color: #666666 !important;
+}
+.Sec1 .Progress_Part .progressPart .Progress_Header h2
+{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 0.875rem !important;
+    font-weight: 600 !important;
+    line-height: 1.56rem !important;
+    color: #444444 !important;
+}
+.Sec1 .Progress_Part .progressPart .Progress_Header h3
+{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 0.8rem !important;
+    font-weight: 600 !important;
+    line-height: 1.3rem !important;
+}
+.Sec1 .progress
+{
+    height:0.3rem !important;
+    margin-bottom:1rem;
+}
+.Home .carousel-control-next
+{
+    position: absolute;
+    left: -2% !important;
+    height:2rem !important;
+    top: 50% !important;
+    border: solid 1px white!important;
+    background-color: transparent !important;
+}
+.Home .carousel-control-prev
+{
+    text-align: center !important;
+    position: absolute;
+    left: -2% !important;
+    height:2rem !important;
+    top: 45.4% !important;
+    border: solid 1px white !important;
+    background-color: transparent !important;
+}
+.w-55
+{
+    width: 55% !important;
+}
+.w-20
+{
+    width: 20% !important;
+}
+.w-80
+{
+    width: 80% !important;
+}
+.w-95
+{
+    width: 95% !important;
+}
+.w-5
+{
+    width: 5% !important;
+}
+.w-15
+{
+    width: 15% !important;
+}
+.w-85
+{
+    width: 85% !important;
+}
+.w-60
+{
+    width: 60% !important;
+}
+.w-40
+{
+    width: 40% !important;
+}
+.w-30
+{
+    width: 30% !important;
+}
+.w-70
+{
+    width: 70% !important;
+}
+
+
+.Sec2  .card-body .card-title
+{
+    margin-bottom:0.7rem !important;
+    font-family: 'Poppins', sans-serif !important;
+font-weight: 600 !important;
+font-size: 1rem !important;
+
+}
+.Sec2 .card-body .card-title:hover
+{
+  color: red !important;
+
+}
+.Sec2 .card-body .card-text
+{
+    margin-bottom:0.7rem !important;
+    font-family: 'Open Sans', sans-serif !important;
+font-weight: 400 !important;
+font-size: 0.875rem !important;
+ 
+Color:#666666 !important; 
+}
+.Sec2 .container .test
+{
+    position: relative !important;
+    transition:0.3s 0s opacity !important;
+}
+.Sec2 .test .Sec2_overlayer
+{
+    background-color:rgba(242, 84, 84, 0.85) !important;
+    position: absolute !important;
+    top: 0% !important;
+    left: 0% !important;
+    width: 100% !important;
+    height: 100% !important;
+    opacity:0 !important;
+    color: white !important;
+}
+.Sec2 .container .test:hover .Sec2_overlayer
+{
+    opacity: 1 !important;
+}
+.Sec3 .Buttons_Part button:hover
+{
+color: red !important;
+}
+.Sec3 .listPort
+{
+    margin: auto !important;
+    margin-top:2rem;
+    margin-bottom: 1.4rem;
+    display:flex;
+    text-align: center;
+}
+.Sec3 .listPort .childList
+{
+    margin-right: 4%;
+    padding-left: 2.5%;
+}
+
+.Sec4 .img-container 
+{
+    position: relative !important;
+    transition:0.3s 0s opacity !important;
+}
+.Sec4 .img-container:hover .Sec4_Overlay
+{
+    opacity: 1 !important;
+}
+.Sec4  .Sec4_Overlay
+{
+    background-color:rgba(255, 255, 255, 0.95)!important;
+    position: absolute !important;
+    top: 2% !important;
+    left: 2% !important;
+    width: 96% !important;
+    height: 96% !important;
+    opacity:0 !important;
+    margin:auto !important;
+}
+.Sec4  .Sec4_Overlay h1
+{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 0.875rem !important;
+    line-height: 1.56rem !important;
+    color: black !important;
+    position: relative !important;
+left:0 !important;
+top: -0.25rem !important;
+transition: 0.25s 0s all;
+}
+.Sec4  .Sec4_Overlay p
+{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 0.875rem !important;
+    line-height: 1.56rem !important;
+    color: #444 !important;
+    transition: 0.25s 0s all;
+    position: relative !important;
+left:0 !important;
+bottom: -0.25rem !important;
+}
+.Sec4 .img-container:hover .Sec4_Overlay p
+{
+bottom: 0.25rem !important;
+}
+.Sec4 .img-container:hover .Sec4_Overlay h1
+{
+top: 0.25rem !important;
+}
+.Sec5 p
+{
+    font-family:Poppins, sans-serif !important;
+    font-size: 1.7rem !important ;
+    font-weight:400 !important;
+}
+.Sec5 button
+{
+    font-family:"Open Sans", sans-serif;
+font-size:0.875rem !important;
+font-weight:700 !important;
+}
+.Sec6 .card
+{
+    margin:0 !important;
+    padding:0 !important;
+    border:0 !important;
+}
+.Sec6_Icon 
+{
+    font-size: 1.5rem !important;
+    font-weight: 400 !important;
+    color: red !important;
+}
+.Sec6 .card-title
+{
+    font-weight: 600 !important;
+    font-size: 1.125 rem!important;
+    font-family:Poppins, sans-serif;
+    color: black !important;
+    transition: 0s 0s color;
+}
+.Sec6 .card-title:hover
+{
+    color:red !important;
+}
+.Sec6 .card-text
+{
+    color:rgb(102, 102, 102) !important;
+    font-family:"Open Sans", sans-serif;
+font-size:1.125rem !important;
+line-height: 1.5rem !important;
+}
+.Parallax_Sec
+{
+    position: relative;
+}
+.Parallax
+{
+    position: absolute;
+    bottom:0rem !important;
+    height: 100% !important;
+}
+.Parallax h1
+{
+    font-weight: 570;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif !important;
+}
+ .ParallaxLine
+{
+    border:1px solid white;
+    width: 2rem;
+    margin-bottom: 1.5rem !important;
+    transition:0.8s width !important;
+
+}
+.Parallax:hover .ParallaxLine
+{
+    width: 3.5rem;
+}
+.Parallax p
+{
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+.Parallax .Parallax_More p
+{
+    font-size: 1rem ;
+    font-weight: 400;
+    font-family:Open Sans;
+    line-height: 1.75rem;
+}
+
+.Parallax .Parallax_More .More_Icon
+{
+    font-size: 1.2rem ;
+    font-weight: 400 !important;
+    border:3px solid white;
+    border-radius: 50% 50%;
+    box-sizing: content-box !important;
+    padding:1.3rem 1.2rem 1.3rem 1.3rem!important;
+    transition:0.1s 0s all;
+}
+.Parallax .Parallax_More .More_Icon:hover
+{
+    color: crimson!important;
+    background-color: white !important;
+    transform: scale(1.1);
+}
+.Clients .Contain_img
+{
+    position: relative;
+}
+.Clients .Client_Img
+{
+    background:linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255,0.4)) !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.Clients h5
+{
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+    font-weight: 520;
+    margin-bottom: 0 !important;
+}
+.Clients p
+{
+    color: #666;
+    margin:0 !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.875rem;
+}
+.Clients .Aenean p
+{
+    font-size: 1.5rem !important;
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.Sec9
+{
+    background-color: #333;
+    color: white;
+}
+.Sec9 h1
+{
+    font-weight: 700 !important;
+    font-size: 2.81rem !important;
+    line-height: 2.81rem !important;
+    font-family: "Poppins", sans-serif;
+}
+.Sec9 p
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.875rem !important;
+    line-height: 0.875rem !important;
+}
+.Sec9 .Sec9_Icon
+{
+    font-size: 2rem !important;
+    color: #f25454;
+    line-height: 2rem !important;
+}
+.Sec10
+{
+    background-color: #fafafa;
+}
+.Sec10 h4
+{
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 700;
+}
+.Sec10 .card-body p
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.75em;
+    color: #666;
+}
+.Sec10 a
+{
+    font-size: 0.75rem !important;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+.Sec10 .img-contain
+{
+    position: relative;
+}
+.Sec10 .Hint_S10
+{
+    font-size: 0.6875rem;
+    font-weight: 600;
+    line-height: 0.6875rem;
+    color: white;
+    position: absolute;
+    padding:0.625rem 0.93rem;
+    background-color: #f25454;
+    top: 2rem;
+    right: 0;
+}
+.Sec10 .ClockPara p
+{
+    margin-bottom: 0.6rem !important;
+    padding-bottom: 0 !important;
+}
+.Sec10 .ClockIcon
+{
+    font-size: 0.93rem;
+    font-weight: 400;
+    line-height: 0.93rem;
+    Color:#999999;
+}
+.Sec10 .ClockPara p
+{
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.56rem;
+    Color:#999999;
+}
+.Sec10 .ClockPara p span
+{
+    color:rgb(0,0,0,0.7);
+
+}
+.Sec11 .Sec11_Title h1
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.375rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+    color: white;
+}
+.Sec11 .Sec11_Title p
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.56rem;
+    color: white;
+}
+.Sec11_Title:hover .ParallaxLine
+{
+    width: 3.5rem;
+}
+.Sec11 .Part_Top h2
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    color: #444444;
+
+}
+.Sec11 .Part_Top h1
+{
+    font-weight: 700;
+    font-size: 4.375rem;
+    line-height: 4.375rem;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+
+}
+.Sec11 .Part_Top h3
+{
+    font-weight: 600 !important;
+    font-size: 1.5rem !important;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+
+}
+.Sec11 .Part_Top p
+{
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.56rem;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+
+}
+.Sec11 .list-group-item
+{
+    font-weight: 400 !important;
+    font-size: 0.83rem !important;
+    line-height: 1.56rem !important;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+
+}
+.Sec11
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/dream.jpg") ;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.Sec11 .card
+{
+    margin:0 !important;
+    padding:0 !important;
+}
+.Sec11 .Purchase
+{
+    background-color: black;
+}
+.Sec11 .Popular
+{
+    position: absolute;
+
+    padding:0.5rem 3rem;
+    top: 10;
+    left: -45;
+    transform: rotate(-45deg);
+    font-weight: 400 !important;
+    font-size: 0.75rem !important;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.Sec11 .Part_Top
+{
+    position: relative;
+    overflow: hidden;
+}
+.Sec13 input,textarea
+{
+    font-size: 0.82rem !important;
+    font-weight: 400 !important;
+    line-height: 0.82rem !important;
+    font-family: "Open Sans", sans-serif;
+    color: #a6a6a6 !important;
+    border-color:lightgrey !important;
+}
+.Sec13 button
+{
+    
+    font-size: 0.875rem !important;
+    line-height: 0.875rem !important;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+.Sec13 .Left_Part h1
+{
+    font-weight: 700 !important;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #282828;
+}
+.Sec13 .Left_Icon
+{
+    font-weight: 200;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #f25454;
+    font-family: "Open Sans", sans-serif;
+    margin-right: 0.8rem;
+}
+.Sec13 .Left_Part .list-group-item h1
+{
+    font-weight: 600 !important;
+    font-size: 1.125rem !important;
+    line-height: 1.5rem ;
+    font-family: "Open Sans", sans-serif;
+}
+.Sec13 .Left_Part .list-group-item p
+{
+    font-weight: 400 !important;
+    font-size: 0.875rem !important;
+    line-height: 1.5rem ;
+    Color:#666666;
+    font-family: "Open Sans", sans-serif;
+}
+.Sec14 li
+{
+    list-style: none;
+    color: #b0b0b0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-family: "Poppins", sans-serif;
+}
+.Sec14 h1
+{
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin-bottom:1rem !important;
+    margin-top: 2rem !important;
+}
+.Sec14 .Tags p
+{
+    box-sizing: border-box !important;
+    padding:0.2rem 0.5rem !important;
+    margin-bottom:0.3rem !important;
+}
+.Sec14_Icon
+{
+    color: white;
+    font-size:4rem !important;
+    line-height:4rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.Sec14
+{
+    background: url("images/dotted-map.png");
+    background-size: contain;
+}
+footer
+{
+    background-color: black;
+}
+.FooterIcon
+{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+footer .CopyRight p
+{
+    color: #b0b0b0;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-family: "Poppins", sans-serif;
+}
+footer .CopyRight span
+{
+    color: white;
+    font-weight: 600;
+}
+.NavToggler
+{
+    color: white;
+}
+.fixed-top.scrolled .NavToggler
+{
+    color: black;
+}
+@media screen and (max-width:992px) and (min-width:767px)
+{
+    .Home .navbar
+    {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+    .Home .navbar-nav
+    {
+        margin-left: auto !important;
+    }
+    .Nav_Padding
+    {
+        padding: 1rem 0rem !important;
+    }
+    .Home .hide
+    {
+        display: none !important;
+    }
+    .Sec13 .Left_Part h1
+{
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    margin-bottom: 0rem !important;
+
+}
+.Sec13 .Left_Icon
+{
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+.Sec10_P_M
+{margin: 0% !important;}
+.Sec10 h4
+{
+font-size: 1rem !important;
+line-height: 1rem !important;
+}
+
+}
+
+@media (max-width:767px)
+{
+
+.Home .Slide_1,.Home .Slide_2,.Home .Slide_3
+{
+    background-size: cover;
+}
+    .Home .NavLinks
+    {
+        display: none;
+    }
+    .Home .navbar-nav
+    {
+        width: 100% !important;
+        background-color: white !important;
+    }
+    .Home .navbar-nav .nav-link
+    {
+        color: black !important;
+    }
+    .Home .Desc_H h1
+    {
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 600 !important;
+        font-size:2.6rem !important;
+        color: white !important;
+        line-height: 1.4rem !important;
+        margin-bottom: 1.6rem !important;
+    }
+    .Sec1 .Sec1_P_M
+    {
+        margin:2rem 0rem !important;
+        padding-top:1rem !important;
+        padding-bottom:1rem !important;
+    }
+    .Sec1 .Header_Sec1,.Sec2 .Header_Sec1,.Sec3 .Header_Sec1,.Sec6 .Header_Sec1,.Clients .Header_Sec1,.Sec10 .Header_Sec1,.Sec13 .Header_Sec1
+
+    {
+        width: 100% !important;
+        padding:0rem 1.5rem !important;
+    }
+    .Sec1 .Header_Sec1 h3,.Sec2 .Header_Sec1 h3,.Sec3 .Header_Sec1 h3,.Sec6 .Header_Sec1 h3,.Clients .Header_Sec1 h3,.Sec10 .Header_Sec1 h3,.Sec13 .Header_Sec1 h3
+    {
+        font-size: 2rem;
+    }
+    .Sec1_Left_Contain
+    {
+        padding:0 !important;
+    }
+    .Sec1 .Sec1_Left
+    {
+        margin-top:1rem !important;
+        margin-left: 0.5rem !important;
+        margin-right: 1rem !important;
+    }
+    .Sec1 .Progress_Part
+    {
+        margin-top:0rem !important;     
+        margin-bottom:0rem !important;
+        padding:0rem 1.5rem !important;
+    }
+    .test
+    {
+        margin:auto !important;
+    }
+    .Sec1
+    {    
+    margin-bottom: 0.5!important;
+    }
+    .Sec2
+    {
+        margin:0.5rem 0rem !important;
+        padding:1rem 0rem !important;
+    }
+    .Sec2 .card-body
+    {
+        margin-bottom:2rem !important;
+    }
+    .Sec2 .Header_Sec1
+    {
+        margin-bottom: 4rem !important;
+    }
+    .Sec3 .listPort
+    {
+        margin-top: 3.5rem !important;
+    }
+    .Sec3 .listPort .childList
+    {
+        padding:0 !important;
+        margin: 0 !important;
+        width: 33.33% !important;
+    }
+    .Sec4 .img-container
+    {
+        margin:0rem 0rem 1.5rem 0rem !important;
+        overflow: hidden !important;
+    }
+    .Sec5 .s5
+    {
+        text-align: center;
+    }
+    
+    .Sec5 .S5_B
+    {
+        float: none !important;
+    }
+    .Sec5 .S5_B_container
+    {      
+          text-align: center;
+    }
+    .Sec6 .card-title
+    {
+    font-size: 1.1rem!important;
+    }
+    .Sec6 .card-text
+    {
+    font-size: 1rem!important;
+    }
+    .Parallax h1
+    {
+        font-size: 1.3rem !important;
+    }
+    .ParallaxLine
+    {
+        margin-bottom: 0rem !important;
+    }
+    .Parallax p
+    {
+        font-size: 1.1rem !important;
+    }
+    .Parallax .Parallax_More p
+    {
+        font-size: 1rem !important;
+        line-height: 1rem !important;
+    }
+
+    .Parallax .Parallax_More .More_Icon
+    {
+        font-size: 0.7rem !important;
+        padding:0.7rem 0.6rem 0.7rem 0.6rem!important;
+    }
+    .Clients .hide
+    {
+        display: none;
+    }
+    .Clients .ClientsImgsContainer
+    {
+        width: 90% !important;
+        padding-left:1rem !important;
+        padding-right:1rem !important;
+        margin-top: 0rem !important;
+    }
+    .Clients .Aenean
+    {
+        padding: 0 !important;
+        width: 90% !important;
+    }
+    .Clients .Aenean p
+    {
+        font-size: 1.1rem !important;
+    }
+    .Sec9 .Right_Border
+    {border: none !important;}
+    .Sec9 p
+    {
+       margin-bottom: 1.5rem !important;
+    }
+    .Sec10 .Sec10_Part
+    {
+        margin:1rem 1rem !important;
+    }
+    .Sec10 .card-body
+    {
+        margin-left:0 !important;
+        margin-right:0 !important;
+        padding-bottom: 1rem !important;
+    }
+    .Sec11 .Sec11_Professional
+    {
+        margin:1.5rem 0rem!important;
+    }
+    
+    .FooterIcon
+    {
+        font-size: 0.8rem;
+        margin-bottom: 1rem !important;
+        margin-top: 1rem !important;
+    }
+    footer .CopyRight p
+{
+    font-size: 0.7rem;
+    line-height: 1rem;
+}
+.FooterIcon
+{
+margin: auto;
+width: 60%;
+}
+.Sec9 h1
+{
+    font-size: 2rem !important;
+    line-height: 2rem !important;
+}
+}
+@media (max-width:576px)
+{
+    .Sec2 .Sec2Part
+    {
+        padding:0rem 2.5rem !important; 
+    }
+    .Sec4 .Sec4_Part
+    {
+        padding:0rem 2rem !important; 
+    }
+}
+@media(max-width:400px)
+{
+    .Home .carousel-control-next, .Home .carousel-control-prev
+    {
+        width:2rem !important;
+    }
+    .Home .Desc_H h1
+    {
+        font-size:2.1rem !important;
+        line-height: 1.5rem !important;
+    }
+    .Home .carousel-control-next
+    {
+        top: 45% !important;
+        left: 91.9% !important;
+    }
+    .Parallax h1
+    {
+        font-size: 1.1rem !important;
+        padding-top: 1.5rem !important;
+    }
+    .ParallaxLine
+    {
+        margin-bottom: 0rem !important;
+    }
+    .Parallax p
+    {
+        font-size: 0.8rem !important;
+    }
+    .Parallax .Parallax_More p
+    {
+        font-size: 0.8rem !important;
+        line-height: 0.8rem !important;
+    }
+    .Parallax .Parallax_More .More_Icon
+    {
+        font-size: 0.5rem !important;
+        padding:0.3rem 0.3rem 0.3rem 0.3rem!important;
+        margin-bottom:1.5rem !important;
+    }
+    .Clients .ClientsImgsContainer
+    {
+        width: 100% !important;
+    }
+    .Sec9 h1
+    {
+        font-size: 1.7rem !important;
+        line-height: 1.7rem !important;
+    }
+    .Sec9 p
+    {
+        font-size: 0.8rem !important;
+        line-height: 0.8rem !important;
+    }
+    .Sec9 .Sec9_Icon
+    {
+        font-size: 1.7rem !important;
+        line-height: 1.7rem !important;
+    }
+    .Sec10_Part h4
+    {
+        font-size: 1rem !important;
+        line-height: 1rem !important;
+    }
+    .Sec10 .card-body p
+    {
+        font-size: 0.75rem !important;
+        line-height: 1.5rem !important;
+    }
+    .Sec10 .ClockIcon
+    {
+        font-size: 0.7rem !important;
+        line-height: 0.7rem !important;
+    
+    }
+.Sec10 .ClockPara p
+{
+    font-size: 0.6rem !important;
+    line-height: 1.2rem !important;
+}
+.Sec11 .Sec11_Title 
+{
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+}
+.Sec11 .ParallaxLine
+{
+    margin-bottom: 1.5rem !important;
+}
+.Sec11 .Part_Top h2
+{
+    font-size: 1rem;
+    line-height: 1rem;
+}
+.Sec11 .Part_Top h1
+{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.Sec11 .Part_Top h3
+{
+    font-size: 1.1rem !important;
+}
+.Sec11 .Part_Top p
+{
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+}
+.Sec11 .list-group-item
+{
+    font-size: 0.8rem !important;
+    line-height: 1.3rem !important;
+}
+.Sec11_Title
+{
+    width:75% !important;
+}
+.Sec13 .Left_Part h1
+{
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 800 !important;
+    margin-bottom: 0rem !important;
+
+}
+.Sec13 .Left_Icon
+{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+.Sec13 .Left_Part .list-group-item h1
+{
+    font-size: 0.9rem !important;
+    line-height: 1rem ;
+}
+.Sec13 .Left_Part .list-group-item p
+{
+    font-size: 0.81rem !important;
+    line-height: 1.3rem ;
+}
+.Sec13_Btn
+{
+    padding:0.5rem 0.5rem !important;
+}
+.Sec13 button
+{ 
+       font-size: 0.8rem !important;
+}
+.Sec13
+{
+    padding-bottom: 2rem !important;
+}
+}
